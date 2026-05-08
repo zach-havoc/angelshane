@@ -1,18 +1,23 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
+import outlookImg from "../assets/ms-outlook.svg";
+import calendlyImg from "../assets/calendly.png";
+import canvaImg from "../assets/canva-icon.png";
+import officeImg from "../assets/Microsoft-Office.png";
+import zoomImg from "../assets/zoom.png";
+import planeImg from "../assets/airplane-flight.png";
 const tools = [
   { name: 'Google Workspace', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg' },
-  { name: 'Microsoft Office', icon: 'public/Microsoft-Office.png' },
+  { name: 'Microsoft Office', icon: officeImg },
   { name: 'Slack', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg' },
   { name: 'Trello', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg' },
   { name: 'Asana', icon: 'https://cdn.worldvectorlogo.com/logos/asana-1.svg' },
   { name: 'Notion', icon: 'https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png' },
-  { name: 'Canva', icon: 'public/canva-icon.png' },
-  { name: 'Google flight', icon: 'public/airplane-flight.png' },
-  { name: 'Outlook', icon: 'public/ms-outlook.svg' },
-  { name: 'Calendly', icon: 'public/calendly.png' },
-  { name: 'Zoom', icon: 'public/zoom.png' }
+  { name: 'Canva', icon: canvaImg },
+  { name: 'Google flight', icon: planeImg },
+  { name: 'Outlook', icon: outlookImg },
+  { name: 'Calendly', icon: calendlyImg },
+  { name: 'Zoom', icon: zoomImg }
 ];
 
 export default function Tools() {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, CheckCircle2, Play } from 'lucide-react';
-
+import profileImg from "../assets/profile.jpeg";
 export default function Hero() {
   return (
     <section className="relative pt-16 pb-16 lg:pt-24 lg:pb-20 overflow-hidden">
@@ -62,7 +62,7 @@ export default function Hero() {
           >
             <div className="relative w-full max-w-lg mx-auto aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl shadow-slate-200/50">
               <img
-                src="public/profile.jpeg"
+                src={profileImg}
                 alt="Professional Virtual Assistant"
                 className="object-cover w-full h-full"
               />
