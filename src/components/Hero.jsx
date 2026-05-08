@@ -4,7 +4,7 @@ import { ArrowRight, CheckCircle2, Play } from 'lucide-react';
 import profileImg from "../assets/profile.jpeg";
 export default function Hero() {
   return (
-    <section className="relative pt-16 pb-16 lg:pt-24 lg:pb-20 overflow-hidden">
+    <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
       {/* Background elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
         <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] rounded-full bg-primary-200/50 blur-[100px] animate-blob"></div>
